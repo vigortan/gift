@@ -3,12 +3,12 @@ new TypeIt("#tqyxhj", {
         cursorSpeed: 1000,
         speed: 100
     })
-    .type("Evelyn")
+    .type("Givian宝宝")
     .pause(2000)
     .delete(null, {
         delay: 500
     })
-    .type("这是我第一次做的七夕礼物...")
+    .type("这是专门为你准备的，希望你会喜欢")
     .pause(3000)
     .go();
 

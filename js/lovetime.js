@@ -12,7 +12,8 @@ function lovetime() {
     var todayHour = today.getHours()
     var todayMinute = today.getMinutes()
     var todaySecond = today.getSeconds()
-    var t1 = Date.UTC(2020, 6, 9, 00, 00, 00)
+    // 修改这里时间即可 我的是2018.11.19
+    var t1 = Date.UTC(2020, 8, 15, 00, 00, 00)
     var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond)
     var diff = t2 - t1
     var diffYears = Math.floor(diff / years)
@@ -21,7 +22,7 @@ function lovetime() {
     var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes)
     var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes *
         minutes) / seconds)
-    document.getElementById("lovetime").innerHTML = "我们已经认识了 " + diffDays + "天" +
+    document.getElementById("lovetime").innerHTML = "我们已经认识 " + diffDays + "天" +
         diffHours + "小时" + diffMinutes + "分钟" + diffSeconds + "秒啦"
 }
 lovetime()
