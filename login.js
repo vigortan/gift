@@ -14,7 +14,7 @@ function login() {
  
         alert("请输入密码");
  
-    } else if(username.value == "Givian" && pass.value == "06071024"){
+    } else if(username.value == "Givian" && pass.value == "0607"){
  
         window.location.href="target.html";
  
