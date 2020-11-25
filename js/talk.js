@@ -3,7 +3,7 @@ new TypeIt("#tqyxhj", {
         cursorSpeed: 1000,
         speed: 100
     })
-    .type("Givian宝宝")
+    .type("Claire")
     .pause(2000)
     .delete(null, {
         delay: 500
