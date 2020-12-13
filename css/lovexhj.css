@@ -249,9 +249,8 @@ img {
 }
 
 .xhjIsPig .pig2 {
-    left: -30px;
+    left: -5px;
     bottom: 0;
-    transform: scaleX(-1) rotate(-90deg);
     animation: xhjPigRun2 5s infinite;
 }
 
